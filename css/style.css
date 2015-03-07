@@ -1,0 +1,101 @@
+/* The body font family*/
+body
+{
+	font-family: 'Nunito', Georgia, sans-serif;	
+}
+
+/* The orange color of the main page*/
+.landing{
+	background: linear-gradient(rgba(244, 179, 80,0.9) 82%, #ECECEC);
+	
+}
+
+/* Header margin from top is 10px*/
+
+header{
+	padding-top: 10px;
+}
+
+/* Header image is floated left */
+header img{
+	float: left;
+}
+/*navigation bar top margin is 50px*/
+#navigation{
+	margin-top: 55px;
+}
+
+/* make all navigation elements inline-block i.e in the same horizontal line */
+#navigation ul
+{
+	display: inline-block;
+}
+/*move menubar slightly right from the image */
+#menubar
+{
+	margin-left: 20px;
+}
+
+/* target the li of the menubar and give it font properties */
+#menubar li, #register li{
+	margin-left: 15px;
+	font-size: 1.2em;
+	color: #036;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+/* style the links inside the nav menubar */
+.nav>li>a {
+	display: inline;
+	text-decoration: none;
+	color: #036;
+}
+
+/*The register ul is floated right*/
+#register{
+	float: right;
+}
+
+/*The register span icons are given some spacing*/
+#register span{
+	margin-right: 10px;
+}
+
+/*margin from top navigation div*/
+#description{
+	margin-top: 40px;
+	padding-bottom: 70px;
+}
+
+/* font property of description text */
+#description p{
+	font: normal 2em/1.5 'Nunito';
+	font-weight: bold;
+	color: #E4F1FE;
+	text-align: center;
+	display: inline-block;
+	margin-top: 160px;
+	letter-spacing: 0.5px;
+	text-shadow: 2px 2px 5px #036;
+}
+/* remove extra white space between 2 container divs (between white page and green page)*/
+p.container{
+	margin-bottom: 0px;
+
+}
+.secondPage{
+	background: -moz-radial-gradient(circle, lightblue 8%, #ECECEC 40%); /* For Firefox 3.6-15 */
+  	background: radial-gradient(circle, lightblue 8%,#ECECEC 40%); /* Standard syntax */
+}
+
+
+.thirdPage{
+	background: -moz-linear-gradient(to top,#87D37C 75%,#ECECEC); /* For Firefox */
+  	background: linear-gradient(to top,#87D37C 75%,#ECECEC); /* Standard syntax */
+}
+
+
+
+

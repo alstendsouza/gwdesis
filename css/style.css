@@ -79,6 +79,7 @@ header img{
 	margin-top: 160px;
 	letter-spacing: 0.5px;
 	text-shadow: 2px 2px 5px #036;
+	
 }
 /* remove extra white space between 2 container divs (between white page and green page)*/
 p.container{
@@ -87,15 +88,65 @@ p.container{
 }
 .secondPage{
 	background: -moz-radial-gradient(circle, lightblue 8%, #ECECEC 40%); /* For Firefox 3.6-15 */
-  	background: radial-gradient(circle, lightblue 8%,#ECECEC 40%); /* Standard syntax */
+  	background: radial-gradient(circle, lightblue 15%,#ECECEC 40%); /* Standard syntax */
 }
 
+#events
+{
+	padding-bottom: 70px;
+}
+
+#event_heading{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2em;
+	color: #036;
+	letter-spacing: 1px;
+	text-shadow: 2px 0px 3px lightgreen;
+	margin-left: -30px;
+	border-bottom: 2px solid lightblue;
+
+}
 
 .thirdPage{
-	background: -moz-linear-gradient(to top,#87D37C 75%,#ECECEC); /* For Firefox */
-  	background: linear-gradient(to top,#87D37C 75%,#ECECEC); /* Standard syntax */
+	background: -moz-linear-gradient(to top,#87D37C 60%,#ECECEC); /* For Firefox */
+  	background: linear-gradient(to top,#87D37C 60%,#ECECEC); /* Standard syntax */
 }
 
 
 
+.singleevent{
+	width:270px;
+	height:320px;
+	border: 3px solid lightblue;
+	border-radius: 10px;
+	background-color: #E4F1FE;
+	text-align: center;
+	display: inline-block;
+	margin-left: 8%;
+	margin-top: 30px;
+	box-shadow: 0px 4px 5px lightblue;
 
+}
+
+
+
+.singleevent img{
+	width:100%;
+	overflow:hidden;
+	height:55%;
+	opacity: 0.85;
+	border-radius: 8px 8px 0 0;
+	border-bottom: 3px solid lightblue;
+}
+
+/*8668951099*/
+/*60111508200044 order no*/
+/*6604243114*/
+
+
+.singleevent h4{
+	color: #036;
+	letter-spacing: 0.5px;
+	text-shadow: 0 1px 3px lightgreen;

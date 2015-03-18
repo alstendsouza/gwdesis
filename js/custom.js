@@ -1,7 +1,10 @@
 
 	
-$('#description p').fadeIn(1700);
+$('#description p').fadeIn(1700); // description will fade in 1.7 seconds
 
+//--------------------------------------------------------------------------------
+
+// Code to scroll to the inline elements in the same page of the website
 jQuery(function($) {
         // from http://imakewebthings.com/jquery-waypoints/
  
@@ -35,7 +38,10 @@ jQuery(function($) {
 	});
  
 });
+//---------------------------------------------------------------------------------------------------------------------
 
+
+// This code below is an ajax call to the team.json file. It parses the json and renders it in the browser
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function(){
 if(xhr.readyState === 4)
@@ -57,5 +63,6 @@ if(xhr.readyState === 4)
 };
 xhr.open('GET', 'data/team.json', true);
 xhr.send();
+//---------------------------------------------------------------------------------------------------------------------
 
 

@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Sumant Balesh",
+        "post": "President",
+        "photo_url": "img/sumant.jpg"
+    },
+    {
+        "name": "Dhananjay Parab",
+        "post": "Vice-President",
+        "photo_url": "img/dhananjay.png"
+    },
+    {
+        "name": "Aakash Kulkarni",
+        "post": "Secretary",
+        "photo_url": "img/aakash.png"
+    },
+    {
+        "name": "Varun Gondegaonkar",
+        "post": "Treasurer",
+        "photo_url": "img/varun.png"
+    },
+    
+    {
+        "name": "Sourabh Kulkarni",
+        "post": "Programming",
+        "photo_url": "img/sourabh.png"
+    },
+    {
+        "name": "Reema Kuvadia",
+        "post": "Programming",
+        "photo_url": "img/reema.png"
+    },
+    {
+        "name": "Chintan Shah",
+        "post": "Programming",
+        "photo_url": "img/chintan.png"
+    },
+    {
+        "name": "Monisha Mukesh",
+        "post": "Programming",
+        "photo_url": "img/monisha.png"
+    },
+    {
+        "name": "Preethi Subramanian",
+        "post": "Joint Treasurer",
+        "photo_url": "img/preeti.png"
+    },
+    {
+        "name": "Alsten Dsouza",
+        "post": "Web Master",
+        "photo_url": "img/alsten.png"
+    }
+]

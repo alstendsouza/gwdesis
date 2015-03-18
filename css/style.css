@@ -150,3 +150,34 @@ p.container{
 	color: #036;
 	letter-spacing: 0.5px;
 	text-shadow: 0 1px 3px lightgreen;
+}
+
+#memberimg {
+
+	border-radius: 100%;
+	width:180px;
+	height:170px;
+	border: 1px solid white;
+	opacity: 0.85;
+
+}
+
+.imgContainer{
+	text-align: center;
+	margin-top: 30px;
+}	
+
+#member_name{
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-top: 20px;
+	letter-spacing: 0.85px;
+	color: #036;
+}
+
+#member_post{
+	font-weight: bold;
+	font-size: 1.05em;
+	letter-spacing: 0.85px;
+	color: #035;
+};

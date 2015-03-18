@@ -36,4 +36,26 @@ jQuery(function($) {
  
 });
 
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function(){
+if(xhr.readyState === 4)
+	{
+		var team = JSON.parse(xhr.responseText);
+		var teamHTML='<p id="event_heading">Team GW Desis </p>';
+		for(var i=0; i<team.length; i++)
+		{
+			teamHTML += '<div class="imgContainer col-md-3">';
+			teamHTML += '<img src="'+team[i].photo_url+'" id="memberimg">';
+			teamHTML += '<p id="member_name">'+team[i].name+'</p>';
+			teamHTML += '<p id="member_post">'+team[i].post+'</p>';
+			teamHTML += '</div>';
+		}
+		
+		document.getElementById('team').innerHTML = teamHTML;
+	}	
+			
+};
+xhr.open('GET', 'data/team.json', true);
+xhr.send();
+
 

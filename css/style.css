@@ -32,6 +32,7 @@ header{
 header img{
 	float: left;
 	margin-top: 10px;
+	
 }
 /*navigation bar top margin is 50px*/
 #navigation{
@@ -58,6 +59,8 @@ header img{
 	color: #036;
 	font-weight: bold;
 	letter-spacing: 1.1px;
+	text-shadow: 2px 0 3px #ECECEC;
+
 
 }
 
